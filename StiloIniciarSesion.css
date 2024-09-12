@@ -1,0 +1,63 @@
+html{
+    background-color: #e0e719;
+}
+#Tabla{
+    display: flex;
+    flex-direction: column;
+    width: 99.5%;
+    height: 99.5%;
+    border: 1px solid black;
+    
+
+}
+
+#Principal{
+    border: 4px solid black;
+    width: 99.5%;
+    height: 15%;
+    display: flex;
+
+}
+
+#titulo{
+    background-color: black;
+}
+
+#InformacionAcceso{
+    border: 4px solid black;
+    width: 99.5%;
+    height: 71%;
+    display: flex;
+    flex-direction:  row;   
+    align-self: center;
+}
+
+#Final{
+    border: 4px solid black;
+    width: 99.5%;
+    height: 10%;
+    display: flex;
+}
+
+#InformacionAcceso> div{
+    border: 4px solid black;
+    display: flex;
+    flex-direction:  row;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: auto;
+    height: 70%;
+ 
+}
+
+#InformacionAcceso .texto{
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.espacios{
+    display: flex;
+    flex-direction: column;
+}
+
