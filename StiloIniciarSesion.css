@@ -19,6 +19,8 @@ html{
 
 }
 
+
+
 #titulo{
     background-color: black;
 }
@@ -32,19 +34,24 @@ html{
     align-self: center;
 }
 
+
 #Final{
     border: 4px solid black;
     width: 99.5%;
     height: 10%;
     display: flex;
 }
-
+#Tabla #InformacionAcceso{
+    display: flex;
+    justify-content: space-around;
+}
 #InformacionAcceso> div{
     border: 4px solid black;
     display: flex;
     flex-direction:  row;
-    margin-top: 15px;
-    margin-left: 25px;
+    
+    margin-top: 35px;
+    
     width: auto;
     height: 70%;
  
@@ -55,9 +62,38 @@ html{
     display: flex;
     flex-direction: column;
 }
-
-.espacios{
+#InformacionAcceso #espacios{
     display: flex;
     flex-direction: column;
+    border: 3px solid;
+    height: 315px;
+    width: 300px;
 }
 
+
+#espacios .enter{
+    border: 3px solid black;
+    border-radius: 0px 70px 0px 70px ;
+    align-self: center;
+    width: 200px;
+    margin: 3px;
+    
+}
+
+#Termino{
+    align-self: center;
+    font-size: auto;
+    font-family: apple Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+
+}
+
+#registro{
+    align-self: center;
+    font-size: auto;
+    font-family: apple Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.enter p{
+    text-align: center;
+}
