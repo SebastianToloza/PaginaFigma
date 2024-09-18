@@ -83,13 +83,13 @@ html{
     width: 6.78%;
     height: 75%;
     position: relative;
-    top: 21px;
-    left: 24px;
+    top: 25%;
+    left: 5%;
 }
 #logo h1{
     position: relative;
-    left: 24px;
-    top: 21px;
+    top: 35%;
+    left: 5%;
 
 }
 /*----------------------------Informacion---------------------------*/
@@ -104,7 +104,7 @@ html{
     border-radius: 10px 10px 10px 10px;
 }
 #Informacion p{
-    font-size: 110%;
+    font-size: 160%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -147,8 +147,8 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 96%;
+    justify-content: space-evenly;
+    height: 90%;
     border: none;
     
     
@@ -179,7 +179,7 @@ html{
   
 }
 
-.Espacios .boton{
+.Espacios .boton1{
     border: 2px solid black;
     border-radius: 70px 0px 70px 0px;
     width: 200px;
@@ -189,7 +189,29 @@ html{
     margin-top: 5px;
     margin-bottom: 5px;
     box-shadow: 0px 3px 4px 1px black;
+    background-color: beige;
+    
 }  
+.boton1:hover{
+    background-color: #60ed34;
+}
+
+.Espacios .boton2{
+    border: 2px solid black;
+    border-radius: 70px 0px 70px 0px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 4px 1px black;
+    background-color: beige;
+    
+}  
+.boton2:hover{
+    background-color: #e10d0d;
+}
 /*----------------------------Formulario---------------------------*/
 
 #final #control1{
