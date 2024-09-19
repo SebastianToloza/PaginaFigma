@@ -1,0 +1,161 @@
+/*----Valores por defecto----*/
+html{
+    background-color: #e0e719;
+}
+#Rojo{
+    background-color: #ea2323;
+}
+#Verde{
+    background-color: #84ea23;
+}
+#Tabla{
+    display: flex;
+    flex-direction: column;
+    width: 99.5%;
+    height: 98%;
+    border: 6px solid black;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#Principal{
+   
+    width: 99.5%;
+    height: 15%;
+    display: flex;
+    align-self: center;
+    
+
+}
+#centro{
+    
+    display: flex;
+    flex-direction: column;
+    width: 99.8%;
+    height: 69%;
+
+    
+}
+
+#InformacionAcceso{
+
+    width: 99.5%;
+    height: 74%;
+    display: flex;
+    flex-direction:  row;   
+    align-self: center;
+}
+
+#Final{
+    
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-self: center;     
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+
+
+/*----AccesoInformacion----*/
+
+#tabla #InformacionAcceso{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------------------------Principal---------------------------*/
+#Principal img{
+    width: 100%;
+    height: 100%;   
+}
+/*----------------------------Logo---------------------------*/
+
+#logo{
+    width: 99.8%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+   
+}
+#logo img{
+    width: 15%;
+    height: 75%;
+    position: relative;
+    top: 25%;
+    left: 2.7%;
+}
+#logo h1{
+    position: relative;
+    top: 35%;
+    left: 2.7%;
+
+}
+/*----------------------------Centro---------------------------*/
+#Tabla #centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#centro #Informacion{
+    
+    width: 45%;
+    height: 100%;
+    
+  
+    
+    
+}
+#Botones button{
+    width: 40%;
+    height: 15%;
+    
+}
+#centro #Botones{
+    
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+#Botones a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#Informacion p{
+    font-size: 190%;
+
+}
+#Informacion #Texto{
+    border: 5px solid;
+    border-radius: 25px;
+}
+
+/*----------------------------Meta---------------------------*/
+
+#final #control1{
+    
+    width: 50%;
+    height: 95%;
+    border-radius: 0px 0px 0px 15px; 
+    position: relative;
+    top: 11px;
+}
+#final #control2{
+    width: 50%;
+    height: 95%;
+    border-radius: 0px 0px 15px 0px;
+    position: relative;
+    top: 11px;
+   
+  
+
+}

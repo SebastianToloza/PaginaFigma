@@ -1,0 +1,233 @@
+/*----Valores por defecto----*/
+html{
+    background-color: #e0e719;
+}
+#Rojo{
+    background-color: #ea2323;
+}
+#Verde{
+    background-color: #84ea23;
+}
+#Tabla{
+    display: flex;
+    flex-direction: column;
+    width: 99.5%;
+    height: 98%;
+    border: 6px solid black;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#Principal{
+   
+    width: 99.5%;
+    height: 15%;
+    display: flex;
+    align-self: center;
+    
+
+}
+#centro{
+    
+    display: flex;
+    flex-direction: column;
+    width: 99.8%;
+    height: 69%;
+
+    
+}
+
+#InformacionAcceso{
+
+    width: 99.5%;
+    height: 74%;
+    display: flex;
+    flex-direction:  row;   
+    align-self: center;
+}
+
+#Final{
+    
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-self: center;     
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+
+
+/*----AccesoInformacion----*/
+
+#tabla #InformacionAcceso{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------------------------Principal---------------------------*/
+#Principal img{
+    width: 100%;
+    height: 100%;   
+}
+
+/*----------------------------Logo---------------------------*/
+
+#logo{
+    width: 99.8%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+   
+}
+#logo img{
+    width: 6.78%;
+    height: 75%;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+#logo h1{
+    position: relative;
+    top: 35%;
+    left: 5%;
+
+}
+/*----------------------------Informacion---------------------------*/
+
+#InformacionAcceso #Informacion{
+    width: 25%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #DFF151;
+    border: 4px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+#Informacion p{
+    font-size: 160%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#InformacionAcceso> div{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+ 
+}
+
+#Informacion .Espacios{
+    display: flex;
+}
+
+
+/*----------------------------Imagen---------------------------*/
+#InformacionAcceso .Imagen{
+    width: 40%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+.Imagen img{
+    width: 99.8%;
+    height: 55%;
+    border: 5px solid;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+}
+
+.Imagen p{
+    font-size: 120%;
+}
+
+/*----------------------------Formulario---------------------------*/
+#InformacionAcceso .Espacios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+    border: none;
+    
+    
+}
+
+ 
+.Espacios .escribir{
+    border: 2px solid black;
+    border-radius: 0px 70px 0px 70px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    
+    background-color: #d4d4d4;
+    box-shadow: 0px 3px 4px 1px black;      
+}
+
+.escribir .Entrar{
+    display: flex;
+    align-self: center;
+   
+    background-color: #d4d4d4;
+    border: none;
+    height: 40px;
+    width: 220px;
+    
+  
+}
+
+.Espacios .boton1{
+    border: 2px solid black;
+    border-radius: 70px 0px 70px 0px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 4px 1px black;
+    background-color: beige;
+    
+}  
+.boton1:hover{
+    background-color: #60ed34;
+}
+
+.Espacios .boton2{
+    border: 2px solid black;
+    border-radius: 70px 0px 70px 0px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 4px 1px black;
+    background-color: beige;
+    
+}  
+.boton2:hover{
+    background-color: #e10d0d;
+}
+/*----------------------------Formulario---------------------------*/
+
+#final #control1{
+    width: 50%;
+    height: 95%;
+    border-radius: 0px 0px 0px 15px; 
+    position: relative;
+    top: 11px;
+}
+#final #control2{
+    width: 50%;
+    height: 95%;
+    border-radius: 0px 0px 15px 0px;
+    position: relative;
+    top: 11px;
+   
+  
+
+}
