@@ -106,9 +106,22 @@ html{
     
     
 }
-#Botones button{
+#Botones #Boton1{
     width: 40%;
     height: 15%;
+    border-radius: 40px 40px 0px 0px;
+    
+}
+#Botones #Boton2{
+    width: 40%;
+    height: 15%;
+    border-radius: 0px 0px 0px 0px;
+    
+}
+#Botones #Boton3{
+    width: 40%;
+    height: 15%;
+    border-radius: 0px 0px 40px 40px;
     
 }
 #centro #Botones{
@@ -116,7 +129,7 @@ html{
     width: 45%;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
