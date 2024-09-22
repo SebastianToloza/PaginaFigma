@@ -1,1 +1,211 @@
+/*----Valores por defecto----*/
+html{
+    background-color: #e0e719;
+}
+#Rojo{
+    background-color: #ea2323;
+}
+#Verde{
+    background-color: #84ea23;
+}
+#Tabla{
+    display: flex;
+    flex-direction: column;
+    width: 99.5%;
+    height: 98%;
+    border: 6px solid black;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#Principal{
+   
+    width: 99.5%;
+    height: 15%;
+    display: flex;
+    align-self: center;
+    
+
+}
+#centro{
+    
+    display: flex;
+    flex-direction: column;
+    width: 99.8%;
+    height: 69%;
+
+    
+}
+
+#InformacionAcceso{
+
+    width: 99.5%;
+    height: 74%;
+    display: flex;
+    flex-direction:  row;   
+    align-self: center;
+}
+
+#Final{
+    
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-self: center;     
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+
+
+/*----AccesoInformacion----*/
+
+#tabla #InformacionAcceso{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----------------------------Principal---------------------------*/
+#Principal img{
+    width: 100%;
+    height: 100%;   
+}
+/*----------------------------Logo---------------------------*/
+#Informacion #logo{
+    width: 99.8%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+ 
+
+}
+#logo img{
+    width: 4.6%;
+    height: 80%;
+    position: relative;
+    top: 20%;
+ 
+}
+#logo h1{
+    position: relative;
+    top: 5%;
+   
+
+}
+/*----------------------------Centro---------------------------*/
+
+#centro #Informacion{
+    width: 100%;
+    height: 25%;
+    
+    
+    
+}
+#Informacion #Texto{
+  
+    margin-bottom: 2%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#Texto #Buscar{
+    width: 30%;
+    
+}
+#Texto p{
+    font-size: 160%;
+}
+
+#Centro #Cuestionario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Cuestionario #boton{
+    border-radius: 10px; 
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+    height: 70px;
+    width: 40px;
+    background-color: black;
+    align-self: center;
+
+    
+}
+
+#Cuestionario #boton2{
+    border-radius: 10px; 
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    height: 70px;
+    width: 40px;
+    background-color: black;
+    align-self: center;
+    
+}
+
+#Cuestionario .Eleccion{
+    
+    border: 4px solid black;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    box-shadow: 0px 3px 4px 1px black;  
+    
+}
+
+.Eleccion .ImgInter{
+    width: 100%;
+    height: 40%;
+}
+.Eleccion p{
+    font-size: 110%;
+}
+.Eleccion #BotonDatos{
+    
+    align-self: center;
+    border-radius: 70px 0px 70px 0px;
+    width: 60%;
+    height: 7%;
+    background-color: #a3fc50;
+}
+#BotonDatos:hover{
+    background-color: #84ea23;
+}
+.Eleccion #Confirmar{
+    
+    align-self: center;
+    border-radius: 70px 0px 70px 0px;
+    width: 60%;
+    height: 7%;
+    margin-top: 5px;
+    background-color: #fa3e3e;
+}
+#Confirmar:hover{
+    background-color: #ea2323;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+/*----------------------------Meta---------------------------*/
+
+#final #control1{
+    
+    width: 50%;
+    height: 95%;
+    border-radius: 0px 0px 0px 15px; 
+    position: relative;
+    top: 11px;
+}
+#final #control2{
+    width: 50%;
+    height: 95%;
+    border-radius: 0px 0px 15px 0px;
+    position: relative;
+    top: 11px;
+}
 
