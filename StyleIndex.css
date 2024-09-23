@@ -79,16 +79,16 @@ html{
    
 }
 #logo img{
-    width: 15%;
-    height: 75%;
+    width: 13%;
+    height: 73%;
     position: relative;
-    top: 25%;
-    left: 2.7%;
+    top: 26%;
+    left: 3.7%;
 }
 #logo h1{
     position: relative;
     top: 35%;
-    left: 2.7%;
+    left: 3.7%;
 
 }
 /*----------------------------Centro---------------------------*/
@@ -144,12 +144,14 @@ html{
 }
 
 #Informacion p{
-    font-size: 190%;
+    font-size: 13   0%;
 
 }
 #Informacion #Texto{
     border: 5px solid;
     border-radius: 25px;
+    width: auto;
+    height: 79%;
 }
 
 /*----------------------------Meta---------------------------*/
