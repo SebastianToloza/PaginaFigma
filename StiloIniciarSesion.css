@@ -79,16 +79,16 @@ html{
    
 }
 #logo img{
-    width: 15%;
-    height: 75%;
+    width: 14%;
+    height: 74%;
     position: relative;
-    top: 25%;
-    left: 2.7%;
+    top: 26%;
+    left: 1.7%;
 }
 #logo h1{
     position: relative;
-    top: 35%;
-    left: 2.7%;
+    top: 36%;
+    left: 1.7%;
 
 }
 /*----------------------------Centro---------------------------*/
@@ -110,7 +110,7 @@ html{
     border-radius: 20px;
 }
 #Texto p{
-    font-size: 160%;
+    font-size: 110%;
 }
 
 #Centro #Cuestionario{
