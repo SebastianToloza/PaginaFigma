@@ -80,16 +80,16 @@ html{
    
 }
 #logo img{
-    width: 6.78%;
+    width: 5.78%;
     height: 75%;
     position: relative;
     top: 25%;
-    left: 5%;
+    left: 3%;
 }
 #logo h1{
     position: relative;
     top: 35%;
-    left: 5%;
+    left: 3%;
 
 }
 /*----------------------------Informacion---------------------------*/
@@ -104,7 +104,7 @@ html{
     border-radius: 10px 10px 10px 10px;
 }
 #Informacion p{
-    font-size: 160%;
+    font-size: 110%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
