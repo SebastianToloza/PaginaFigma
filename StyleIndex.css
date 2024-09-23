@@ -144,12 +144,14 @@ html{
 }
 
 #Informacion p{
-    font-size: 190%;
+    font-size: 13   0%;
 
 }
 #Informacion #Texto{
     border: 5px solid;
     border-radius: 25px;
+    width: auto;
+    height: 79%;
 }
 
 /*----------------------------Meta---------------------------*/
