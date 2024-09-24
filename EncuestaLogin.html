@@ -1,0 +1,59 @@
+<Html>
+    <head>
+        <link rel="stylesheet" href="StiloEncuestaLogin.css">
+        
+        <title>Teletaxi</title>
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2014/04/04/15/58/taxi-313746_1280.png">
+    </head>
+    <body>
+        <div id="Tabla">
+            <div id="Principal"><img src="Parte de arriba.png"></div>
+            <div id="Preguntas">
+                <form id="Encuesta">
+                    <div class="Formulario">
+                        <label for="MotivoVisita">¿Cuál fue el motivo principal de su visita?</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="Formulario">
+                        <label for="nombre">Nombre:</label>
+                        <input type="nombre" id="nombre" placeholder="ingrese su nombre">
+                 </div>
+
+                    <div class="Formulario">
+                           <label for="edad">Edad:</label>
+                           <input type="number" id="edad" required min="14">
+                    </div>
+
+                    <div class="Formulario">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="ingrese su email">
+                    </div>
+
+                    <div class="Formulario">
+                        <label for="contraseña">Contrasenña</label>
+                        <input type="contraseña" id="contraseña" placeholder="ingrese su contraseña">
+                    </div>
+
+                    <div class="Formulario">
+                        <p>Que opcion describe mejor su actividad actual?</p>
+                        <select class="campo_input">
+                            <option selected disabled>Seleccione su rol actual</option>
+                            <option value="estudiante">Estudiante</option>
+                            <option value="trabajo_a_tiempo_completo">Trabajo a tiempo completo</option>
+                            <option value="estudiante_a_tiempo_completo">Estudiante a tiempo completo</option>
+                            <option value="prefiero_no_decirlo">Prefiero no decirlo</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+        
+
+                </form>
+            </div>
+            <div id="Final">
+                <img id="control1" src="Linea_de_mete_izquierda.jpg">
+                <img id="control2" src="Linea_de_mete_derecha.jpg">
+            </div>  
+        </div>
+    </body>
+</Html>
