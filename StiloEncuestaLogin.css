@@ -8,6 +8,18 @@ html{
 #Verde{
     background-color: #84ea23;
 }
+
+body{
+    background-image:url(man-tries-catch-taxi-street-260nw-2277799145.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    color: white;
+}
+
+
 #Tabla{
     display: flex;
     flex-direction: column;
@@ -50,8 +62,8 @@ html{
 /*----------------------------Centro---------------------------*/
 #Preguntas{
     align-self: center;
-    width: 50%;
-    height: 60em;
+    width: auto;
+    height: auto;
     border: 3px solid;
     background-color: #dddb6b;
 }
@@ -62,9 +74,10 @@ html{
 }
 #Encuesta .Formulario{
     display: flex;
+    margin-top: 40px;
     flex-direction: column;     
     margin: 1px;
-    width: 40%;
+    width: auto
 }
 /*----------------------------Meta---------------------------*/
 
