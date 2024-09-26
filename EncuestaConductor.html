@@ -1,1 +1,122 @@
+<Html>
+    <head>
+        <link rel="stylesheet" href="StyleEcuestaConductor.css">
+        
+        <title>Teletaxi</title>
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2014/04/04/15/58/taxi-313746_1280.png">
+    </head>
+    <body>
+        <div id="Tabla">
+            <div id="Principal"><img src="Parte de arriba.png"></div>
+            <div id="Preguntas">
+                <form action="" id="Encuesta">
+                
+                    <h2>Encuesta de Conductor</h2>
+                    <div class="Formulario">
+                        <label for="MotivoVisita">1.Puntualidad </label>
+                        <input type="Text">
+                    </div>
+                    <div class="Formulario">
+                        <label for="">2.Amabilidad y cortesía</label>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                          <option value="Mala">
+                          <option value="Normal">  
+                          <option value="Buena">
+                          <option value="Excelente">
+                          
+                        </datalist>
+                    </div>
+                    <div class="Formulario">
+                        <label for="">3.Conducción (seguridad y habilidad)</label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion1">
+                            Redes sociales
+                        </label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion2">
+                            Recomendación
+                        </label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion3">
+                            Publicidad
+                        </label>
+                    </div>
+                    <div class="Formulario">
+                        <label for="">4.Comunicación (claridad y amabilidad)</label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion1">
+                            Si
+                        </label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion2">
+                            No
+                        </label>
+                    </div>
+                    <div class="Formulario">
+                        <label for="">5.Estado del vehículo</label><br>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Atención al cliente
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Calidad del producto/servicio
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Precio
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Tiempo de respuesta 
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Variedad de opciones
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Facilidad de uso
+                        </label>
+                    </div>
+                    <div class="Formulario">
+                        <label for="Frecuencia">6.Conocimiento de la ruta:</label>
+                        <select id="Frecuencia" name="Frecuencia">
+                        <option value="volvo">Rara vez</option>
+                        <option value="saab">Ocacionalmente</option>
+                        <option value="fiat">A menudo</option>
+                        <option value="audi">Muy a menudo</option>
+                        </select>
+
+                    </div>
+                    <div class="Formulario">
+                        <label for="">7.¿Qué aspecto te gustó más de tu experiencia con el conductor?</label>
+                        <input type="number" required max="5" min="0"  >
+                    </div>
+                    <div class="Formulario">
+                        <label for="">8.¿Hubo algo que te gustaría que mejorara en la conducción o el servicio?</label>
+                        <input type="number" required max="5" min="0"  >
+                    </div>
+                    <div class="Formulario">
+                        <label for="">9.¿Recomendarías a este conductor a otros usuarios? ¿Por qué?</label>
+                        <input type="number" required max="5" min="0"  >
+                    </div>
+                    <div class="Formulario">    
+                        <label for="">10.¿Hay algo más que te gustaría compartir sobre tu experiencia?</label>
+                        <input type="text">
+                    </div>
+                    <div id="Enviar">
+                        <button onclick="location.href='Respuesta.html'">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="Final">
+                <img id="control1" src="Linea_de_mete_izquierda.jpg">
+                <img id="control2" src="Linea_de_mete_derecha.jpg">
+            </div>  
+        </div>
+    </body>
+</Html>
+
 
