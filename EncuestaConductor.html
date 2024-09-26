@@ -1,1 +1,122 @@
+<Html>
+    <head>
+        <link rel="stylesheet" href="StyleEcuestaConductor.css">
+        
+        <title>Teletaxi</title>
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2014/04/04/15/58/taxi-313746_1280.png">
+    </head>
+    <body>
+        <div id="Tabla">
+            <div id="Principal"><img src="Parte de arriba.png"></div>
+            <div id="Preguntas">
+                <form action="" id="Encuesta">
+                
+                    <h2>Encuesta de Conductor</h2>
+                    <div class="Formulario">
+                        <label for="MotivoVisita">1.¿Cuál fue el motivo principal de su visita?</label>
+                        <input type="Text">
+                    </div>
+                    <div class="Formulario">
+                        <label for="">2.¿Como calificarias la experiencia general ?</label>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                          <option value="Mala">
+                          <option value="Normal">  
+                          <option value="Buena">
+                          <option value="Excelente">
+                          
+                        </datalist>
+                    </div>
+                    <div class="Formulario">
+                        <label for="">3.¿Cómo te enteraste de nuestro servicio?</label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion1">
+                            Redes sociales
+                        </label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion2">
+                            Recomendación
+                        </label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion3">
+                            Publicidad
+                        </label>
+                    </div>
+                    <div class="Formulario">
+                        <label for="">4.¿Te gustaría recibir información sobre futuras promociones o servicios?</label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion1">
+                            Si
+                        </label><br>
+                        <label>
+                            <input type="radio" name="opcion" value="opcion2">
+                            No
+                        </label>
+                    </div>
+                    <div class="Formulario">
+                        <label for="">5.¿Qué aspectos valoras más de nuestro servicio? (Selecciona todas las que apliquen)</label><br>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Atención al cliente
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Calidad del producto/servicio
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Precio
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Tiempo de respuesta 
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Variedad de opciones
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terminos">
+                            Facilidad de uso
+                        </label>
+                    </div>
+                    <div class="Formulario">
+                        <label for="Frecuencia">6.¿Que tan seguido usa nuestro servicio?</label>
+                        <select id="Frecuencia" name="Frecuencia">
+                        <option value="volvo">Rara vez</option>
+                        <option value="saab">Ocacionalmente</option>
+                        <option value="fiat">A menudo</option>
+                        <option value="audi">Muy a menudo</option>
+                        </select>
+
+                    </div>
+                    <div class="Formulario">
+                        <label for="">7.¿Cómo calificarías la calidad de nuestro producto/servicio? </label>
+                        <input type="number" required max="5" min="0"  >
+                    </div>
+                    <div class="Formulario">
+                        <label for="">8.¿Qué tan fácil fue obtener información sobre nuestro servicio?</label>
+                        <input type="number" required max="5" min="0"  >
+                    </div>
+                    <div class="Formulario">
+                        <label for="">9.¿Qué tan cómodo te sentiste durante el servicio?</label>
+                        <input type="number" required max="5" min="0"  >
+                    </div>
+                    <div class="Formulario">    
+                        <label for="">10.¿En qué región te encuentras?</label>
+                        <input type="text">
+                    </div>
+                    <div id="Enviar">
+                        <button onclick="location.href='Respuesta.html'">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="Final">
+                <img id="control1" src="Linea_de_mete_izquierda.jpg">
+                <img id="control2" src="Linea_de_mete_derecha.jpg">
+            </div>  
+        </div>
+    </body>
+</Html>
+
 
