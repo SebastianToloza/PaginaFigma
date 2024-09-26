@@ -8,6 +8,7 @@ html{
 #Verde{
     background-color: #84ea23;
 }
+
 #Tabla{
     display: flex;
     flex-direction: column;
