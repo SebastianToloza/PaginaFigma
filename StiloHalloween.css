@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b061f;
+}
+
+.spider{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    animation: animatespider 15s ease-in-out infinite;
+}
+
+@keyframes animatespider{
+    0%,100%{
+        transform: translateY(-500px);
+    }
+    50%{
+        transform: translateY(0px);
+}
+
+}
+
+.pumpkin01{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    animation: animatepumpkin 8s ease-in-out infinite;
+}
+
+@keyframes animatepumpkin{
+    0%,100%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(50px);
+}
+
+}
+
+.pumpkin02{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    animation: animatepumpkin 4s ease-in-out infinite;
+    scale: 0.5;
+}
+
+.spiderWeb{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    position: relative;
+    color: rgb(255,255,255,0.1);
+    font-size: 12vw;
+    font-family: "Kablammo";
+    font-weight: 100;
+    animation: animatetext 5s linear infinite;
+}
+
+@keyframes animatetext{
+    0%{
+        color: rgb(255,255,255,0.1);
+        text-shadow: none;
+    }
+
+    100%{
+        color: #ffac09;
+        text-shadow: 0 0 10px #ffac09,
+        0 0 20px #ffac09,
+        0 0 40px #ffac09,
+        0 0 80px #ffac09,
+        0 0 160px #ffac09,
+    }
+}
