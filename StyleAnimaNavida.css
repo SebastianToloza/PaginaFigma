@@ -9,7 +9,7 @@ body{
 #bordes #ImgCopo{
     width: 20px;
     height: 20px;
-    
+    top: 0%;
     transition:  transform 100s ease-in-out, top 5s ease;
     animation-name: Copitpos;
     animation-duration: 100s;
@@ -24,11 +24,10 @@ body{
 }
 @keyframes Copitpos{
     0%{
-        top:0%;
+        top: 0%;
     }
-    5%{
+    2%{
         top: 98%;
         transform: rotate(360deg) scale(1);
     }
-    
 }
