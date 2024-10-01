@@ -1,85 +1,34 @@
-html{
-    background-color: #e0e719;
+body{
+    background-color: beige;
 }
-#Rojo{
-    background-color: #ea2323;
-}
-#Verde{
-    background-color: #84ea23;
-}
-
-#Tabla{
-    display: flex;
-    flex-direction: column;
-    width: 99.5%;
-    height: auto;
-    border: 6px solid black;
-    border-radius: 25px 25px 25px 25px;
-    align-content: center;
-}
-
-#Principal{
-    width: 99.5%;
-    height: 15%;
-    display: flex;
-    align-self: center;
-}
-
-
-#InformacionAcceso{
-    width: 99.5%;
-    height: 74%;
-    display: flex;
-    flex-direction:  row;   
-    align-self: center;
-}
-
-#Final{
+#bordes{
     width: 100%;
-    height: 80px;
-    display: flex;
-    align-self: center;     
-    border-radius: 25px 25px 25px 25px;
+    height: 100%;
+    border: 2px solid;
 }
-/*----------------------------Principal---------------------------*/
-#Principal img{
-    width: 100%;
-    height: 110px;   
-}
-/*----------------------------Centro---------------------------*/
-
-
-#ejemplo{
-    width: 100%;
-    height: 410px;
-}
-
-#ejemplo p{
-    text-align: center;
-    justify-self: center;
-}
-/*----------------------------Meta---------------------------*/
-
-#Final #control1{
+#bordes #ImgCopo{
+    width: 20px;
+    height: 20px;
     
-    width: 50%;
-    height: 99%;
-    border-radius: 0px 0px 0px 15px; 
+    transition:  transform 100s ease-in-out, top 5s ease;
+    animation-name: Copitpos;
+    animation-duration: 100s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
     position: relative;
-    top: 2px;
+
 }
-#Final #control2{
-    width: 50%;
-    height: 99%;
-    border-radius: 0px 0px 15px 0px;
-    position: relative;
-    top: 2px;
-   
-  
+@keyframes Copitpos{
+    0%{
+        top:0%;
+    }
+    5%{
+        top: 98%;
+        transform: rotate(360deg) scale(1);
+    }
+    
 }
-
-
-
-
-
-
