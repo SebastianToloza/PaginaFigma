@@ -1,22 +1,47 @@
 body{
-    background-color: beige;
+    background-color: rgb(139, 169, 233);
 }
-#bordes{
+#Bordes{
     width: 100%;
-    height: 100%;
-    border: 2px solid;
+    height: 98%;
+    border: 2px solid white;
 }
-#bordes #ImgCopo{
+/*---------------------------------------------------*/
+#Bordes #Nubes{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    margin: none;
+}
+#Nubes #Nube{
+    width: 20%;
+}
+#Nubes #Nube2{
+    width: 40%;
+}
+
+/*---------------------------------------------------*/
+#Bordes #Copos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 87%;
+    position: relative;
+    bottom: 50px;
+    border: 2px solid ;
+}
+#Copos #ImgCopo{
     width: 20px;
     height: 20px;
     top: 0%;
-    transition:  transform 100s ease-in-out, top 5s ease;
+    left: 0%;
+    opacity: 100%;
     animation-name: Copitpos;
-    animation-duration: 100s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 6.5s;
+    animation-timing-function: ease-in;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     animation-fill-mode: both;
     animation-play-state: running;
     position: relative;
@@ -24,10 +49,110 @@ body{
 }
 @keyframes Copitpos{
     0%{
+        opacity: 0%;
         top: 0%;
     }
-    2%{
+    45%{
+        opacity: 100%;
+       
+    }
+    95%{
         top: 98%;
+        left: 50px; 
         transform: rotate(360deg) scale(1);
     }
+    96%,100%{
+        opacity: 0%;
+    }
+}
+/*-------------------------------------------------------------------------------*/
+#Copos #ImgCopo2{
+    width: 20px;
+    height: 20px;
+    top: 0%;
+    right: 0%;
+    opacity: 100%;
+    animation-name: Copitpos2;
+    animation-duration: 8s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    position: relative;
+
+
+}
+@keyframes Copitpos2{
+    0%{
+        opacity: 0%;
+        top: 0%;
+    }
+    45%{
+        opacity: 100%;
+    }
+    95%{
+        top: 98%;
+        right: 60px;
+        transform: rotate(360deg) scale(1);
+    }
+    96%,100%{
+        opacity: 0%;
+    }
+}
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+#Copos #ImgCopo3{
+    width: 20px;
+    height: 20px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+
+    opacity: 100%;
+    animation-name: Copitpos3;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    position: relative;
+
+
+}
+@keyframes Copitpos3{
+    0%{
+        opacity: 0%;
+        top: 0%;
+    }
+    45%{
+        opacity: 100%;
+        
+    }
+    95%{
+        top: 98%;
+        right: 100px;
+        transform: rotate(360deg) scale(1);
+    }
+    96%,100%{
+        opacity: 0%;
+    }
+}
+/*-------------------------------------------------------------------------------*/
+#Bordes #Piso{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+    bottom: 320px;
+}
+#Piso #Nieve{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 4px;
+ 
 }
