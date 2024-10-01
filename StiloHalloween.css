@@ -35,8 +35,8 @@
 
 .pumpkin01{
     position: absolute;
-    top: 100px;
-    right: 200px;
+    top: 150px;
+    right: 100px;
     animation: animatepumpkin 8s ease-in-out infinite;
 }
 
@@ -53,7 +53,7 @@
 .pumpkin02{
     position: absolute;
     bottom: 20px;
-    left: 50px;
+    left: 20px;
     animation: animatepumpkin 4s ease-in-out infinite;
     scale: 0.5;
 }
@@ -66,7 +66,7 @@
 }
 
 .text{
-    position: relative;
+    position: fixed;
     color: rgb(255,255,255,0.1);
     font-size: 12vw;
     font-family: "Kablammo";
@@ -88,4 +88,49 @@
         0 0 80px #ffac09,
         0 0 160px #ffac09,
     }
+}
+
+.texteletaxi{
+    position: fixed;
+    color: rgb(255,255,255,0.1);
+    margin-bottom: -20%;
+    font-size: 12vw;
+    font-family: "Kablammo";
+    font-weight: 100;
+    animation: animatetext 5s linear infinite;
+
+}
+
+@keyframes animatetexteletaxi{
+    0%{
+        color: rgb(255,255,255,0.1);
+        text-shadow: none;
+    }
+
+    100%{
+        color: #ffac09;
+        text-shadow: 0 0 10px #ffac09,
+        0 0 20px #ffac09,
+        0 0 40px #ffac09,
+        0 0 80px #ffac09,
+        0 0 160px #ffac09,
+    }
+}
+
+.brujas{
+    height: 200px;
+    margin-bottom: 25%;
+    margin-right: 1200px;
+
+}
+
+.halloweenbruja{
+     height: 250px;
+     margin-bottom: 25%;
+     margin-right: -500px;
+} 
+
+.audio{
+    margin-left: -130%;
+    margin-bottom: -35%;
 }
