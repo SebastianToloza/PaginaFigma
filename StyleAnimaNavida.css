@@ -1,18 +1,18 @@
 body{
-    background-color: rgb(139, 169, 233);
+    background: linear-gradient(to right, #5fffe7, #7babfe);
 }
 #Bordes{
     width: 100%;
     height: 98%;
-    border: 2px solid white;
+
 }
 /*---------------------------------------------------*/
 #Bordes #Nubes{
     position: relative;
-    bottom: 390px;
+    bottom: 280px;
     display: flex;
     flex-direction: row;
-    height: 20%;
+    height: 17%;
     margin: none;
 }
 
@@ -28,15 +28,16 @@ body{
 #Bordes #Soles{
     position: relative;
     width: 100%;
-    height: 394px;
+    height: 290px;
+
 
 }
 #Soles #Sol{
     width: 250px;
     height: 160px;
     position: relative;
-    top: 70px;
-    left: 100px;
+    top: 60px;
+    left: 900px;
     transform: none;
     animation-name: Solecito;
     animation-duration: 10.5s;
@@ -64,8 +65,7 @@ body{
     justify-content: space-around;
     height: 87%;
     position: relative;
-    bottom: 440px;
-    
+    bottom: 380px; 
 }
 #Copos #ImgCopo{
     width: 20px;
@@ -76,8 +76,8 @@ body{
     
     animation-name: Copitpos;
     animation-duration: 6.5s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-fill-mode: both;
@@ -112,8 +112,8 @@ body{
     opacity: 100%;
     animation-name: Copitpos2;
     animation-duration: 7.5s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-fill-mode: both;
@@ -140,7 +140,6 @@ body{
     }
 }
 /*-------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------*/
 #Copos #ImgCopo3{
     width: 20px;
     height: 20px;
@@ -151,8 +150,8 @@ body{
     opacity: 100%;
     animation-name: Copitpos3;
     animation-duration: 11s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-fill-mode: both;
@@ -179,30 +178,79 @@ body{
         opacity: 0%;
     }
 }
+
+
+/*-------------------------------------------------------------------------------*/
+
+#Copos #ImgCopo4{
+    width: 20px;
+    height: 20px;
+    top: 0%;
+    right: 0%;
+    opacity: 100%;
+    animation-name: Copitpos4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    position: relative;
+
+
+}
+@keyframes Copitpos4{
+    0%{
+        opacity: 0%;
+        top: 0%;
+    }
+    45%{
+        opacity: 100%;
+    }
+    95%{
+        top: 98%;
+        right: 60px;
+        transform: rotate(360deg) scale(1);
+    }
+    96%,100%{
+        opacity: 0%;
+    }
+}
 /*-------------------------------------------------------------------------------*/
 #Bordes #Texto{
     position: relative;
-    bottom: 800px;
-    border: 2px solid;
+    bottom: 1000px;
+    
     height: 26%;
     
     
 }
 #Texto h1{
-    font-size: 40px;
+    font-size: 50px;
     position: relative;
     text-align: center;
-    border: 2px solid;
+    
 }
 #Texto #Arbol{
     position: relative;
-    bottom: 100px;
+    bottom: 128px;
+    
 }
 
 
-
-
-
+#Texto #Regalo{
+    position: relative;
+    bottom: 140px;
+    left: 710px;
+}
+#Bordes #Informacion{
+    position: relative;
+    left: 250px;
+    bottom: 49em;
+    height: 250px;
+    width: 300px;
+}
 
 /*-------------------------------------------------------------------------------*/
 
@@ -212,12 +260,27 @@ body{
     flex-direction: row-reverse;
     justify-content: space-around;
     position: relative;
-    bottom: 815px;
+    bottom: 944px;
+    
 }
 #Piso #Nieve{
     width: 100%;
     height: 200px;
     position: relative;
-    top: 4px;
+
  
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
+#piso:hover{
+    @
+
+
 }
